@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEVELOP"
+        android:textSize="20pt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/textView01" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="時間入力"
+        android:onClick="sendMessage"
+        android:id="@+id/editText01"
+        android:layout_below="@+id/textView01"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="達成度（０〜１）入力"
+        android:onClick="sendMessage"
+        android:id="@+id/editText02"
+        android:layout_below="@+id/textView01"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDY"
+        android:textSize="20pt"
+        android:id="@+id/textView02"
+        android:layout_below="@+id/editText02"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="時間入力"
+        android:onClick="sendMessage"
+        android:id="@+id/editText03"
+        android:layout_below="@+id/textView02"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="達成度（０〜１）入力"
+        android:onClick="sendMessage"
+        android:id="@+id/editText04"
+        android:layout_below="@+id/editText03"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMMITTEE"
+        android:textSize="20pt"
+        android:id="@+id/textView03"
+        android:layout_below="@+id/editText04"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="時間入力"
+        android:onClick="sendMessage"
+        android:id="@+id/editText05"
+        android:layout_below="@+id/textView03"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="達成度（０〜１）入力"
+        android:onClick="sendMessage"
+        android:id="@+id/editText06"
+        android:layout_below="@+id/editText05"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="plus!"
+        android:id="@+id/button01"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView01"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="minus!"
+        android:id="@+id/button02"
+        android:layout_gravity="right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button01"
+        android:layout_below="@+id/editText06" />
+</RelativeLayout>

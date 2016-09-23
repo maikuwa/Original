@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "105517802246",
+    "firebase_url": "https://original-cb66c.firebaseio.com",
+    "project_id": "original-cb66c",
+    "storage_bucket": "original-cb66c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105517802246:android:4dd104f84fc05e72",
+        "android_client_info": {
+          "package_name": "jp.techacademy.maiko.uetani.original"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105517802246-nn4j88b19dmqmaph3080sonf9lo8265b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrryxVNZ_38nb7nBSTo4m7qGfEEN7BoTc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
